@@ -1,0 +1,70 @@
+html{
+    background: linear-gradient(320deg, rgb(11, 184, 207), rgb(231, 238, 233), #eb4646)
+}
+
+@font-face {
+    font-family: "wood";
+    src: url("fonts/bellaty.ttf") format("truetype");
+}
+
+.boite1 {
+    background-color: pink;
+    height: 200px;  
+    width: 200px;
+    position: absolut;
+    z-index: 1; 
+}
+
+.boite2 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolut;
+    z-index: 2;
+    left: 150px;
+    top: 150px;
+}
+
+.color{
+    color: blue;
+}
+
+.fontsize{
+    font-size: larger;
+}
+
+.fontweight{
+    font-weight: bold;
+}
+
+.textalign{
+    text-align: center;
+}
+
+.texttransform{
+    text-transform: uppercase;
+}
+
+.lineheight{
+    line-height: 3%;
+}
+
+.letterspacing{
+    letter-spacing: 5px;
+}
+
+.paragraphe::first-letter{
+    text-transform: capitalize;
+}
+
+.laspan{
+    font-family: "wood";
+    line-height: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.lapolice{
+    font-family: 'Creepster', cursive;
+}
+
